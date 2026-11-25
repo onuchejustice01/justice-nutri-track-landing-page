@@ -15,6 +15,7 @@ body{
 .main-header{
   width: 100%;
   background: #fff;
+  height: auto
 
 }
 .header{
@@ -25,6 +26,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1.2rem 0;
+
 }
 
 .logo{
@@ -1122,4 +1125,123 @@ color: #65d47c;
   color: #c9d9ce;
   margin: 0;
   line-height: 1.5;
+}
+
+@media screen  and (min-width:768px) and (max-width: 1024px) {
+  
+
+  .header{
+    display: flex;
+    align-items: center;
+
+   
+
+  }
+.header-left .logo-img{
+width: 100px;
+}
+
+.header-nav a{
+  font-size: 1.2rem;
+}
+
+.header-right .login-btn, .nav-cta{
+  font-size: 1.2rem;
+  padding: 1rem 1.8rem;
+}
+
+.heading-secondary{
+  font-size: 3rem;
+}
+
+.feature-icon{
+  width:3.4rem;
+  height: 3.4rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card h3{
+  font-size: 1.4rem;
+}
+
+.steps-row{
+  gap: 20px;
+}
+
+.step-text-box h2{
+  font-size: 30px;
+}
+
+.steps-icon {
+  width: 6rem;
+  height: 6rem;
+}
+
+.step-heading{
+  font-size: 1.4rem;
+}
+
+.step-description{
+  font-size: 12px;
+}
+
+.testimonial-card p{
+  font-size: 12px;
+}
+
+ .author-img{
+  width: 50px;
+  height: 50px;
+}
+
+.author-details h6 {
+  font-size: 10px;
+}
+
+
+  .testimonial-card p:last-child {
+    font-size: 10px;
+  }
+
+
+  .section-grid {
+  display: grid;
+  grid-template-columns:  1fr;
+
+}
+
+
+.pricing-box h2 {
+  font-size: 30px;
+}
+
+.question-box p {
+  font-size: 14px;
+}
+
+
+.footer{
+  grid-template-columns: 1.4fr 0.8fr 0.8fr 1.2fr ;
+}
+
+}
+.footer-socials{
+  gap: 8px;
+}
+
+.footer-nav h3,
+.footer-resources h3,
+.footer-contacts h3{
+  font-size: 14px;
+}
+
+
+
+.footer-nav a,
+.resources-list li,
+.contact-box a{
+  font-size: 12px;
+}
+
+
 }
